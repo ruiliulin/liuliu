@@ -13,7 +13,7 @@ print(math.floor(5.9))
 import keyword
 print(keyword.kwlist)
 
-# round() 四舍五入操作，不是数学模块的函数
+# round() 四舍五入操作，不是数学模块的函数，是Python内置函数
 print(round(5.4))
 print(round(5.5))
 print(round(5.9))
@@ -47,7 +47,7 @@ print(math.modf(4.5))
 print(math.modf(0))
 print(math.modf(5))
 
-# copysign() 将第二个数的符号（正负号）传给第一个数，返回第一个数的浮点数
+# copysign() 将第二个数的符号（正负号）传给第一个数，返回第一个数值的浮点数
 print(math.copysign(2,-3))
 print(math.copysign(-4,5))
 
@@ -81,22 +81,18 @@ random.shuffle(list1)
 print(list1)
 '''
 
-# 练习
-import random
-import math
-i = random.randrange(100,1000)
-num = input("请输入一个三位数：")
-if num.isdigit():
-    num = int(num)
-    if 100 <= num <= 999:
-       if num <= 1:
-           print("输入的数字小啦")
-       elif num == i:
-           print("真牛逼")
-       else:
-           print("输入数字大啦")
-       print("系统随机数字是：" + str(i))
-    else:
-        print('按规定输入一个三位数字')
-else:
-    print("请输入数字")
+''' 
+# ASCII码转数字---------------ord()
+print(ord('A'))
+print(ord('Z'))
+print(ord('a'))
+print(ord('z'))
+# 数字转ASCII码---------------chr()
+print(chr(65))
+print(chr(90))
+print(chr(97))
+print(chr(122))
+'''
+
+
+
