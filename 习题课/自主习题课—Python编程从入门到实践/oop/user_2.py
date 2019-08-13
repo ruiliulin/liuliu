@@ -31,3 +31,4 @@ class User():
     def reset_login_attempts(self):
         """初始化用户的登录次数"""
         self.login_attempts = 0
+

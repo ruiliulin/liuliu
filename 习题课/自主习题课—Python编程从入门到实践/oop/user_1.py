@@ -50,3 +50,4 @@ class Admin(User):
         """管理员所具有的属性和特权"""
         super().__init__(first_name, last_name, age, sex, addr)
         self.privileges = Privileges()
+

@@ -24,3 +24,4 @@ print(my_beetle.get_c_name())
 my_tesla = ElectricCar('tesla', 'model s', 2018)
 print(my_tesla.get_c_name())
 
+
