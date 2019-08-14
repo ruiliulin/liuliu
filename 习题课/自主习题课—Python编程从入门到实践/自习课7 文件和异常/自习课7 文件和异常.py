@@ -198,7 +198,6 @@ filename = 'numbers.json'
 with open(filename, 'w') as f_obj:
     json.dump(numbers, f_obj)
 print(numbers)
-"""
 
 # 加载信息
 import json
@@ -207,6 +206,67 @@ with open(filename) as f_obj:
     numbers = json.load(f_obj)
 print(numbers)
 
+# 保存和读取用户生成的数据
+import json
+username = input("What your name?")
+filename = 'username.json'
+with open(filename, 'w') as f_obj:
+    json.dump(username, f_obj)
+    print("We'll remember you when you come back, " + username + "!")
+
+import json
+filename = 'username.json'
+with open(filename) as f_obj:
+    username = json.load(f_obj)
+print(username)
+
+# 将以上的代码合并后处理异常
+import json
+# 如果以前存储了用户名，就加载它
+# 否则，提示用户输入用户名并储存它
+filename = 'username.json'
+try:
+    with open(filename) as f_obj:
+        username = json.load(f_obj)
+except FileNotFoundError:
+    username = input("What's your name?")
+    with open(filename, 'w') as f_obj:
+        json.dump(username, f_obj)
+        print("We'll remember you when you come back, " + username + "!")
+else:
+    print("Welcome back, {}!".format(username))
+"""
+
+# 重构(就是把代码封装成函数方法)
+import json
+
+def greet_stored_username():
+    '''如果存储了用户名，就获取它'''
+    filename = 'username.json'
+    try:
+        with open(filename) as f_obj:
+           username = json.load(f_obj)
+    except FileNotFoundError:
+        return None
+    else:
+        return username
+
+def get_new_name():
+    '''提示用户输入用户名'''
+    username = input("What's your name?")
+    filename = 'username.json'
+    with open(filename, 'w') as f_obj:
+        json.dump(username, f_obj)
+    return username
+
+def greet_user():
+    '''问候用户，并指出其名字'''
+    username = greet_stored_username()
+    if username:
+        print("Welcome back, {}!".format(username))
+    else:
+        username = get_new_name()
+        print("We'll remember you when you come back, " + username + "!")
 
 
-
+greet_user()
