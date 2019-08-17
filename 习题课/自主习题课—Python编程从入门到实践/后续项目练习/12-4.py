@@ -9,3 +9,4 @@ while True:
             sys.exit()
         elif event.type == pygame.KEYDOWN:
             print(event.key)
+
