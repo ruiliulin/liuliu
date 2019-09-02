@@ -1,0 +1,30 @@
+DEBUG:root:This is a debug log.
+INFO:root:This is a info log.
+WARNING:root:This is a warning log.
+ERROR:root:This is a error log.
+CRITICAL:root:This is a critical log.
+DEBUG:root:This is a debug log.
+INFO:root:This is a info log.
+WARNING:root:This is a warning log.
+ERROR:root:This is a error log.
+CRITICAL:root:This is a critical log.
+2019-09-02 15:11:02,981======DEBUG+++++++This is a debug log.
+2019-09-02 15:11:02,981======INFO+++++++This is a info log.
+2019-09-02 15:11:02,981======WARNING+++++++This is a warning log.
+2019-09-02 15:11:02,981======ERROR+++++++This is a error log.
+2019-09-02 15:11:02,982======CRITICAL+++++++This is a critical log.
+2019-09-02 15:11:02,982======DEBUG+++++++This is a debug log.
+2019-09-02 15:11:02,982======INFO+++++++This is a info log.
+2019-09-02 15:11:02,982======WARNING+++++++This is a warning log.
+2019-09-02 15:11:02,983======ERROR+++++++This is a error log.
+2019-09-02 15:11:02,983======CRITICAL+++++++This is a critical log.
+2019-09-02 15:11:20,696 ======DEBUG+++++++ This is a debug log.
+2019-09-02 15:11:20,696 ======INFO+++++++ This is a info log.
+2019-09-02 15:11:20,697 ======WARNING+++++++ This is a warning log.
+2019-09-02 15:11:20,697 ======ERROR+++++++ This is a error log.
+2019-09-02 15:11:20,697 ======CRITICAL+++++++ This is a critical log.
+2019-09-02 15:11:20,697 ======DEBUG+++++++ This is a debug log.
+2019-09-02 15:11:20,698 ======INFO+++++++ This is a info log.
+2019-09-02 15:11:20,698 ======WARNING+++++++ This is a warning log.
+2019-09-02 15:11:20,698 ======ERROR+++++++ This is a error log.
+2019-09-02 15:11:20,698 ======CRITICAL+++++++ This is a critical log.
