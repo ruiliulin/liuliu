@@ -1,0 +1,10 @@
+2019-09-04 11:12:03,067 - DEBUG - this is a debug message
+2019-09-04 11:12:03,067 - ERROR - this is a error message
+2019-09-04 11:21:57,305 - DEBUG - This is a test1 done
+2019-09-04 11:21:57,305 - DEBUG - This is a test1 done
+2019-09-04 11:21:57,305 - ERROR - This is a test1 done
+2019-09-04 11:21:57,305 - ERROR - This is a test1 done
+2019-09-04 11:21:57,305 - DEBUG - This is a main done
+2019-09-04 11:21:57,305 - DEBUG - This is a main done
+2019-09-04 11:21:57,305 - ERROR - This is a main done
+2019-09-04 11:21:57,305 - ERROR - This is a main done
