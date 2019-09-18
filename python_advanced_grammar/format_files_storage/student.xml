@@ -2,12 +2,12 @@
 <School>
     <Teacher desc="PythonTeacher" score="good">
         <Name>LiuDana</Name>
-        <Age detail="Age for year 2001">18</Age>
+        <Age Detail="Age for year 2001">18</Age>
         <Mobile>13260446055</Mobile>
     </Teacher>
     <Student>
         <Name Other="他是班长">ZhangSan</Name>
-        <Age detail="The youngest boy in class">18</Age>
+        <Age_1 Detail="The youngest boy in class">18</Age_1>
     </Student>
     <Student>
         <Name>LiSi</Name>

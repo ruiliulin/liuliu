@@ -111,7 +111,7 @@
  
 ## 读取
 - XML读取主要分两个技术：SAX，DOM
-- SAX(Simple API of XML)
+- SAX(Simple API for XML)
     - 基于事件驱动的API
     - 利用SAX解析文档涉及到解释器和事件处理两部分
     - 特点：
@@ -150,6 +150,10 @@
         - ele.remove: 删除元素
         - 案例-------------V03.py
     - 生成创建
+        - SUbElement, 案例------------V04.py
+        - minidom 写入, 案例------------V05.py
+        - etree 写入, 案例------------V06.py
+        
         
  
  
