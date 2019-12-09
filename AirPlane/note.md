@@ -25,4 +25,39 @@
     - 应该是一个tuple
     - 例如(-1, 0)表示水平向左移动
     - 例如(0, 1)表示垂直向下移动
+   
+# v3
+- 重构代码，使用oop方法
+    - 世界的构成
+        - 小飞机
+        - 大飞机
+        - 子弹
+        - 英雄级
+        - 天空
+    - 配置文件
+        - 可以通过一次性的配置来让程序正确运行
+        - 降低了代码软件工程方面的成本
+        - python的配置文件包：configparser
+            - 以前叫ConfigParser
+            - 配置文件一般以cfg或ini结尾
+            - 语法：
+                - 中括号：表示的是section
+                - 每个section下是键值对，用等号或者冒号连接
+            - get(section_name, key_name)返回相应的值
+            - getint(section_name, key_name)返回相应的整数值
+- 在oop的基础上再创建小飞机，蜜蜂等等，相对简单很多
+- 程序可以正常生产飞行物，包括英雄级，子弹，云层
+- BaseClass
+    - 图片，以及一些功能
+    - 位置，初始时飞进画布（x, 0-height）
+    - 移动
+- SubClass
+    - Bee
+    - SmallPlane
+    - BigPlane
+    - Bullet
+    - Hero
+    - Sky
+    
+
     
